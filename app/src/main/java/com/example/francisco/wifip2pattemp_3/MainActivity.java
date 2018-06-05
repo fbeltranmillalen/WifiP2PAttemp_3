@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         connectionStatus = (TextView) findViewById(R.id.connectionStatus);
         writeMsg = (EditText) findViewById(R.id.writeMsg);
         Databasehelper databasehelper = new Databasehelper(this);
-        
+
         //Inicializa objeto wifi para administrar conexiones wifi
         wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 
